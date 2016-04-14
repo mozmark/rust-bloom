@@ -1,0 +1,20 @@
+[package]
+name = "rust-bloom"
+version = "0.0.1"
+authors = ["Yago Riveiro <yago.riveiro@gmail.com>"]
+
+readme = "README.md"
+keywords = ["bloom", "filter", "bloom filter"]
+
+license = "MIT"
+
+
+[lib]
+name = "rust_bloom"
+path = "src/lib.rs"
+
+[dependencies.bit-vec]
+version = ">= 0.4.3"
+
+[dependencies.xxhash2]
+version = ">= 0.1.0"
